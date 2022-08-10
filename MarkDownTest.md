@@ -4,6 +4,14 @@
 
 ---
 
-$$\sqrt{2}$$ find some places
+$\sqrt{2}$ find some places
 
-** How about _we have _ some text**
+**How about _we have_ some text**
+
+- this is the first item
+- the second
+- the 3rd
+
+1. a list
+2. more list
+3. even more
