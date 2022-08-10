@@ -1,5 +1,4 @@
 ---
-usemathjax: true
 layout: default
 ---
 
