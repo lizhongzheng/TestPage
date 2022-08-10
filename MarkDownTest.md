@@ -1,8 +1,5 @@
-
 ---
-
 usemathjax: true
-
 ---
 
 # large heading
