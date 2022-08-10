@@ -1,3 +1,7 @@
+---
+usemathjax: true
+---
+
 # large heading
 
 ## not so large heading
