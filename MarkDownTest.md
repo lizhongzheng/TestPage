@@ -9,9 +9,11 @@ use_math: true
 
 ## not so large heading
 
----
+
 
 $\sqrt{4}$ find some places
+
+$$ \sin \min_x f(x)$$
 
 **How about _we have_ some text**
 
