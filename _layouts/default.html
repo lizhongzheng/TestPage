@@ -1,32 +1,16 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!doctype html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<link href="/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
 
-  {%- include head.html -%}
-  
-  {% include mathjax_support.html %}
-  
-  <head>
-  … rest of head
-  {% if page.title %}
-      <title>CawCannon | {{ page.title }}</title>
-  {% else %}
-      <title>CawCannon</title>
-  {% endif %}
-      <link rel="stylesheet" href="css/style.css">
-  </head>
+	<title>{{ page.title }}</title>
+    </head>
+    <body>
+	{{ content }}
 
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
+	{% include mathjax_support.html %}
+    </body>
 </html>
+<!doctype html>
