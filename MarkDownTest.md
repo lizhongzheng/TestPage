@@ -11,7 +11,7 @@ use_math: true
 
 ---
 
-$$\sqrt{4}$$ find some places
+$\sqrt{4}$ find some places
 
 **How about _we have_ some text**
 
