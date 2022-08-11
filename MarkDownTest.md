@@ -20,3 +20,7 @@ $$\sqrt{4}$$ find some places
 1. a list
 2. more list
 3. even more
+
+\begin{equation}
+f(x) = \sqrt{2}
+\end{equation}
