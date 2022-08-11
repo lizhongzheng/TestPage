@@ -4,6 +4,16 @@
   {%- include head.html -%}
   
   {% include mathjax_support %}
+  
+  <head>
+  … rest of head
+  {% if page.title %}
+      <title>CawCannon | {{ page.title }}</title>
+  {% else %}
+      <title>CawCannon</title>
+  {% endif %}
+      <link rel="stylesheet" href="css/style.css">
+  </head>
 
   <body>
 
