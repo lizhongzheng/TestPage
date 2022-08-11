@@ -1,6 +1,8 @@
 ---
 layout: default
-title: frontmatter title
+title: Markdown Test
+category: misc
+use_math: true
 ---
 
 # large heading
